@@ -1,8 +1,8 @@
 `timescale 1ns / 1ps
 
-// ROM MODULE using your .mem file
+// ROM MODULE using .mem file
 module at_rom(
-    input  wire [7:0] addr,  // <-- FIXED: Changed to 8 bits [7:0]
+    input  wire [7:0] addr,  // 
     output reg  [7:0] data
 );
 
